@@ -1,5 +1,63 @@
 ﻿body
 {
-
-    background-color:blue;
+    background-color:darkgray;
+    
+}
+h1 {
+    background-color: mediumpurple;
+    box-shadow: -10px 15px black
+}
+#card1{
+    background-color:mediumpurple;
+    height:500px;
+    width:25%;
+    float:left;
+}
+#card1:hover{
+    background-color: blueviolet;
+    zoom:110%;
+}
+#card2 {
+    background-color: pink;
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+#card2:hover{
+    background-color:hotpink;
+    zoom:110%
+}
+#card3 {
+    background-color: mediumpurple;
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+#card3:hover{
+    background-color:darkviolet;
+    zoom:110%
+}
+#card4 {
+    background-color: pink;
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+#card4:hover{
+    background-color:hotpink;
+    zoom:110%;
+}
+img {
+    border-radius: 5px 5px 0 0;
+    width: 90%;
+    height: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.container{
+    border-radius:20px;
+    background-color:white;
+    padding:20px;
+    margin:25px;
+    text-decoration:none;
 }
