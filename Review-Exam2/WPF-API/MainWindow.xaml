@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_API.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_API"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="LstPokemon" HorizontalAlignment="Left" Height="279" Margin="416,74,0,0" VerticalAlignment="Top" Width="338"/>
+        <Button x:Name="btnGetInfo" Content="Get Pokemon Information&#xD;&#xA;" HorizontalAlignment="Left" Height="86" Margin="30,74,0,0" VerticalAlignment="Top" Width="206" Click="BtnGetInfo_Click"/>
+        <TextBox x:Name="txtPokemonInformation" HorizontalAlignment="Left" Height="167" Margin="30,206,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="349"/>
+
+    </Grid>
+</Window>
